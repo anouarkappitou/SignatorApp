@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="me.anouar.paintme.MainActivity">
+
+    <me.anouar.paintme.SignCanvas
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:id="@+id/drawing"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <ImageView
+        android:background="@color/color"
+        android:layout_weight="3"
+        android:src="@drawable/syscom_logo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        
+        <Button
+            android:layout_width="0dp"
+            android:id="@+id/btn_clear"
+            android:layout_weight="1"
+            android:text="@string/btn_clear"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:layout_width="0dp"
+            android:id="@+id/btn_save"
+            android:text="@string/btn_save"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

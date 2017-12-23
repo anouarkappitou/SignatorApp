@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Signer</string>
+    <string name="menu_color">Pick signature Color</string>
+    <string name="background_color">Pick Background Color</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_save">Save</string>
+</resources>
